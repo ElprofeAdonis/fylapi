@@ -14,7 +14,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //Router
-
+app.use("/", require("./routes/auth.routes"));
+app.use("/user", require("./routes/user.routes"));
 //Middlewares
 app.use(history());
 app.use(express.static(path.join(__dirname, "public")));
