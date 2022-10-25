@@ -5,7 +5,8 @@ const router = express.Router();
 
 // rutas van aca
 
-// router.post("/rcuentabancaria", user.createRcuentabancaria);
+router.post("/rcuentabancaria", user.createRcuentabancaria);
 
-// router.get("/rcuentabancaria/:id_t", user.readRcuentabancaria);
+router.get("/rcuentabancaria/:id_r", user.readRcuentabancaria);
+
 module.exports = router;
