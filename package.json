@@ -1,0 +1,28 @@
+{
+  "name": "finanzas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "nodemon app.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "adoview@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "connect-history-api-fallback": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4"
+  }
+}
