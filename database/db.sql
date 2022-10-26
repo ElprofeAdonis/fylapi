@@ -11,7 +11,7 @@ CREATE TABLE userr(
 CREATE TABLE rcuentabancaria(
     id_r SERIAL PRIMARY KEY,
     r_id INTEGER REFERENCES userr(id_s),
-    r_namebanco TEXT NOT NULL,
+    r_namebanco TEXT NOT NULL
     r_numcuenta TEXT NOT NULL,
     r_url TEXT NOT NULL
 );

@@ -3,9 +3,13 @@ import user from "../controllers/user";
 
 const router = express.Router();
 
-// rutas van aca
+// rutas de montoregistro
 
-// router.post("/rcuentabancaria", user.createRcuentabancaria);
 
-// router.get("/rcuentabancaria/:id_t", user.readRcuentabancaria);
+router.post("/montoregistro", user.createMontoregistro);
+
+router.get("/montoregistro/:id", user.readMontoregistro);
+
+router.put("/montoregistro/:id", user.updateMontoregistro);
+
 module.exports = router;
